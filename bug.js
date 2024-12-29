@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo, specifically when attempting to access AsyncStorage within a function that's indirectly called by a component's lifecycle method, like `componentDidMount`. The AsyncStorage API may not be fully initialized within the lifecycle method's execution context, causing the error.
